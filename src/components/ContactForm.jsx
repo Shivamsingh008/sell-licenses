@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactForm = () => (
-  <section id="contact" className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white py-20">
+  <section id="Contact Form" className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white py-20">
     <div className="max-w-xl mx-auto px-4">
       <div className="bg-white dark:bg-gray-700 shadow-lg rounded-2xl p-8">
         <h2 className="text-3xl font-bold mb-6 text-center text-blue-600 dark:text-blue-400">
@@ -40,7 +40,7 @@ const ContactForm = () => (
             <select
               id="license"
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black dark:text-white"
             >
               <option value="">Select one</option>
               <option>Windows</option>
