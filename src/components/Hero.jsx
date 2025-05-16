@@ -34,7 +34,7 @@ const Hero = ({ isDark, setIsDark }) => {
           We help businesses sell surplus licenses quickly and safely.
         </p>
         <a
-          href="#contact"
+          href="#contact" id='Contact Form'
           className="bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-full font-bold transition"
         >
           Sell My Licenses
