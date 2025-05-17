@@ -24,7 +24,7 @@ const testimonials = [
 const Testimonials = () => (
   <section className="py-16 px-6 bg-blue-100 text-center dark:bg-gray-800 text-gray-800 dark:text-white">
     <h2 className="text-3xl font-bold mb-12">Customer Testimonials</h2>
-    <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
+    <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {testimonials.map((t, idx) => (
         <div
           key={idx}
