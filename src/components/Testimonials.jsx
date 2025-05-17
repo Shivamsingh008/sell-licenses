@@ -2,16 +2,22 @@ import React from 'react';
 
 const testimonials = [
   {
-    quote: '“SoftSell made it super easy to recover value from unused licenses.”',
+    quote: '“SoftSell made it super easy to recover value from unused licenses.Their process was smooth and we received payment much faster than espected.”',
     name: 'Aman Verma',
     position: 'IT Manager, TechNova',
     image: '/assets/man.jpeg', // put this in /public/image folder
   },
   {
-    quote: '“Professional, fast, and totally secure. Highly recommended!”',
+    quote: '“Professional, fast, and totally secure. Highly recommended! We were skeptical at first but the team aat SoftSell exceeded our expectations.”',
     name: 'Priya Singh',
     position: 'Procurement Lead, CodeClimb',
     image: '/assets/lady.jpeg', // another example image
+  },
+   {
+    quote: '“As a growing startup, every rupee counts. SoftSell helped us recover significant value from licenses we no longer needed. Great service!”',
+    name: 'Raj Malhotra ',
+    position: 'CEO, Cloudvista',
+    image: '/assets/man.jpeg', // another example image
   },
 ];
 

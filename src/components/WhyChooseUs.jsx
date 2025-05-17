@@ -4,22 +4,22 @@ const features = [
   {
     icon: '🚀',
     title: 'Fast Payments',
-    
+    desc: 'Receieve payment within 48 hours after accepting our offer',
   },
   {
     icon: '🔒',
     title: 'Secure Process',
-   
+    desc: 'All transactions and license transfers are encrypted and secure.',
   },
   {
     icon: '👨‍💼',
     title: 'Expert Valuation',
-  
+    desc: 'Our industry experts ensure you get the best market price.',
   },
   {
     icon: '💯',
     title: 'No Hidden Fees',
-   
+    desc: 'transparent Pricing with no surprise costs or commissions.',
   },
 ];
 
@@ -37,7 +37,7 @@ const WhyChooseUs = () => (
           >
             <div className="text-4xl mb-4">{item.icon}</div>
             <h3 className="text-xl font-bold mb-2 dark:text-gray-300">{item.title}</h3>
-
+            <p className="text-gray-600 dark:text-gray-300">{item.desc}</p>
           </div>
         ))}
       </div>
