@@ -23,7 +23,10 @@ const testimonials = [
 
 const Testimonials = () => (
   <section className="py-16 px-6 bg-blue-100 text-center dark:bg-gray-800 text-gray-800 dark:text-white">
-    <h2 className="text-3xl font-bold mb-12">Customer Testimonials</h2>
+    <h2 className="text-3xl font-bold mb-12">What Our Customers Say</h2>
+    <h4 className="text-sm md:text-xl font-semibold text-center mb-16 py-4">
+        Don't just take our word for it - hear from businesses like yours
+      </h4>
     <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       {testimonials.map((t, idx) => (
         <div

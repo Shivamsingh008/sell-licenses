@@ -5,8 +5,11 @@ const ContactForm = () => (
     <div className="max-w-xl mx-auto px-4">
       <div className="bg-white dark:bg-gray-700 shadow-lg rounded-2xl p-8">
         <h2 className="text-3xl font-bold mb-6 text-center text-blue-600 dark:text-blue-400">
-          Contact Us
+          Get in Touch
         </h2>
+        <h4 className="text-sm md:text-xl font-semibold text-center mb-16 py-4">
+        Have licenses to sell or questions about our service? Reach out to us.
+      </h4>
         <form className="space-y-5">
           <div>
             <label className="block font-medium mb-1" htmlFor="name">Name</label>
