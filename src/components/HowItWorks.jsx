@@ -27,6 +27,9 @@ const HowItWorks = () => (
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
         How It Works
       </h2>
+      <h4 className="text-xl md:text-2xl font-bold text-center mb-12">
+        Selling your unused software licenses is easy with our simple 3-step process
+      </h4>
       <div className="grid md:grid-cols-3 gap-8">
         {steps.map((step, idx) => (
           <div
