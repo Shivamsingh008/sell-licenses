@@ -7,7 +7,7 @@ const ContactForm = () => (
         <h2 className="text-3xl font-bold mb-6 text-center text-blue-600 dark:text-blue-400">
           Get in Touch
         </h2>
-        <h4 className="text-sm md:text-xl font-semibold text-center mb-16 py-4">
+        <h4 className="text-sm md:text-xl font-semibold text-center mb-12">
         Have licenses to sell or questions about our service? Reach out to us.
       </h4>
         <form className="space-y-5">

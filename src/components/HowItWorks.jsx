@@ -27,7 +27,7 @@ const HowItWorks = () => (
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
         How It Works
       </h2>
-      <h4 className="text-sm md:text-xl font-semibold text-center mb-16 py-4">
+      <h4 className="text-sm md:text-xl font-semibold text-center mb-16 ">
         Selling your unused software licenses is easy with our simple 3-step process
       </h4>
       <div className="grid md:grid-cols-3 gap-8">
