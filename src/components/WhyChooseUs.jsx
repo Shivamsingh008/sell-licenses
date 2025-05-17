@@ -4,22 +4,22 @@ const features = [
   {
     icon: '🚀',
     title: 'Fast Payments',
-    desc: 'Paisa milega jaldi',
+    
   },
   {
     icon: '🔒',
     title: 'Secure Process',
-    desc: 'Sab kuch safe & encrypted',
+   
   },
   {
     icon: '👨‍💼',
     title: 'Expert Valuation',
-    desc: 'Industry experts license ko evaluate karenge',
+  
   },
   {
     icon: '💯',
     title: 'No Hidden Fees',
-    desc: 'Bilkul transparent pricing',
+   
   },
 ];
 
@@ -37,7 +37,7 @@ const WhyChooseUs = () => (
           >
             <div className="text-4xl mb-4">{item.icon}</div>
             <h3 className="text-xl font-bold mb-2 dark:text-gray-300">{item.title}</h3>
-            <p className="text-gray-600 dark:text-gray-300">{item.desc}</p>
+
           </div>
         ))}
       </div>
